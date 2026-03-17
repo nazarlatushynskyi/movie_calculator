@@ -23,6 +23,8 @@ def calculate_snacks_cost(popcorn_price, drinks_price, candy_price):
 def main():
     print('*** Welcome to movie night calculator ***')
 
+   
+
     age = int(input('Please enter your age: '))
 
     while True:
@@ -45,7 +47,10 @@ def main():
     print('Snacks price:', snacks)
     print('Your total expenses are: $' , total )
 
+movie_name = input('Enter a movie name:\n')
 
 main()
 
+print('Your movie:' , movie_name)
 print('Enjoy your movie!')
+
